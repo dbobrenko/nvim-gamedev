@@ -29,7 +29,7 @@ git clone https://github.com/dbobrenko/nvim-gamedev ~/.config/nvim/gamedev
 2. Install `neovim-remote` to be able to open scripts in your existing NeoVim session.
 ```shell
 pip install neovim-remote
-# Create a symbolic link to your bin folder, in order to access to `neovim-remote` from Unity Editor.
+# Create a symbolic link to your bin folder, in order to access `neovim-remote` from Unity.
 sudo ln -s `which nvr` /usr/local/bin/nvr
 ```
 
@@ -44,7 +44,8 @@ brew install --cask iterm2
 
 6. Set `External Script Editor Args` to: `+$(Line) $(File)`
 
-7. Finally, open NeoVim as: `nvim --listen "/tmp/nvimsocket"` and enjoy! For convenience, you can make an `alias nvim=nvim -- listen "/tmp/nvimsocket"`.
+7. Finally, open NeoVim as: `nvim --listen "/tmp/nvimsocket"` and enjoy! 
+For convenience, one can make an `alias nvim=nvim -- listen "/tmp/nvimsocket"`.
 
 ## To Do
   - [ ] Unity: Open files from Unity to a new NeoVim session.
