@@ -18,13 +18,13 @@ To embrace the full god-like power of NeoVim, it is recommended to setup
 at least [csharp_ls](https://github.com/razzmatazz/csharp-language-server) LSP 
 and [netcoredbg](https://github.com/Samsung/netcoredbg) debugger.
 
-#### Unity
+### Unity
 1. Clone this repo to your existing NeoVim directory.
 ```
 git clone https://github.com/dbobrenko/nvim-gamedev ~/.config/nvim/gamedev
 ```
 
-### MacOS X
+#### MacOS X
 
 2. Install `neovim-remote` to be able to open scripts in your existing NeoVim session.
 ```shell
@@ -40,9 +40,9 @@ brew install --cask iterm2
 
 4. Go to `Unity Settings` -> `External Tools`.
 
-5. Set `External Script Editor` to: "$HOME/.config/nvim/gamedev/unity/launcher_mac.sh"
+5. Set `External Script Editor` to: `$HOME/.config/nvim/gamedev/unity/launcher_mac.sh`.
 
-6. Set `External Script Editor Args` to: +$(Line) $(File)
+6. Set `External Script Editor Args` to: `+$(Line) $(File)`
 
 7. Finally, open NeoVim as: `nvim --listen "/tmp/nvimsocket"` and enjoy! For convenience, you can make an `alias nvim=nvim -- listen "/tmp/nvimsocket"`.
 
