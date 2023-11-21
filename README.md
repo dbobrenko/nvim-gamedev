@@ -45,7 +45,7 @@ brew install --cask iterm2
 6. Set `External Script Editor Args` to: `+$(Line) $(File)`
 
 7. Finally, open NeoVim as: `nvim --listen "/tmp/nvimsocket"` and enjoy! 
-For convenience, one can make an `alias nvim=nvim -- listen "/tmp/nvimsocket"`.
+For convenience, one can make an `alias nvim="nvim --listen '/tmp/nvimsocket'"`.
 
 ## To Do
   - [ ] Unity: Open files from Unity to a new NeoVim session.
