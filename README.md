@@ -3,7 +3,7 @@ GameDev addons to your NeoVim config.
 
 ## Pre-requirements
 
-Requires already existing NeoVim (prefferably with config).
+Requires already existing NeoVim.
 
 If you are new to NeoVim, a good starting point could be one of the following configs:
   - [LazyVim](https://github.com/LazyVim/LazyVim);
