@@ -48,7 +48,7 @@ brew install --cask iterm2
 For convenience, one can make an `alias nvim="nvim --listen '/tmp/nvimsocket'"`.
 
 ## To Do
-  - [ ] Unity: Open files from Unity to a new NeoVim session.
+  - [x] Unity: Open files from Unity in a new NeoVim session.
   - [x] Unity: Open files from Unity in an existing NeoVim session.
   - [ ] Unity: Attach to debugger process.
 
